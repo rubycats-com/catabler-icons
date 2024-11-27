@@ -5,7 +5,7 @@ class IconComponent < ViewComponent::Base
   option :inline, default: -> { false }
 
   erb_template <<~ERB
-    <%= TablerIconsRuby.render(icon, size: "20px") %>
+    <%= ::TablerIconsRuby.render(icon, size: "20px") %>
   ERB
 
   private
