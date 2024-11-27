@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/rubycats-com/catabler-icons"
-  spec.metadata["changelog_uri"] = "https://github.com/rubycats-com/catabler-icons/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/rubycats-com/catabler-icons/blob/main/CHANGELOG.md"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
