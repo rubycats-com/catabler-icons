@@ -9,14 +9,17 @@ Gem::Specification.new do |spec|
   spec.summary     = "Tabler-icons icons pack"
   spec.description = "Tabler icons pack"
   spec.license     = "MIT"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/rubycats-com/catabler-icons"
-  spec.metadata["changelog_uri"] = "https://github.com/rubycats-com/catabler-icons/CHANGELOG.md"
+  spec.metadata["changelog_uri"] = "https://github.com/rubycats-com/catabler-icons/blob/main/CHANGELOG.md"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   end
 
   spec.add_dependency "rails", ">= 8.0.0"
+  spec.add_dependency "tabler_icons_ruby"
+  spec.add_dependency "view_component"
 end
