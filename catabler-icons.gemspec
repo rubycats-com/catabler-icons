@@ -19,4 +19,6 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", ">= 8.0.0"
+  spec.add_dependency "tabler_icons_ruby"
+  spec.add_dependency "view_component"
 end
